@@ -12,15 +12,19 @@ function DetailContainer() {
     e.target.style.color = "#fff";
   };
   const handleRed = (e) => {
-    return (document.querySelector("img").src = "/images/red.png");
+    document.querySelector("img").src = "/images/red.png";
+    document.querySelector("img").alt = "Blue Flyknit Trainers";
+    document.querySelector("img").alt = "Red Flyknit Trainers";
   };
   const handleGreen = (e) => {
-    return (document.querySelector("img").src = "/images/green.png");
+    document.querySelector("img").src = "/images/green.png";
+    document.querySelector("img").alt = "Green Flyknit Trainers";
   };
   const handleBlue = (e) => {
     document.querySelector("img").src = "/images/blue.png";
     document.querySelector("img").alt = "Blue Flyknit Trainers";
   };
+
   return (
     <div className="detail-container">
       <div className="text-details">
@@ -79,7 +83,7 @@ function DetailContainer() {
       <div className="color-container">
         <p>Colour</p>
         <div className="color-buttons">
-          <div className="button-item" id="red">
+          <div className="button-item">
             <Button
               id="red"
               className="btn"

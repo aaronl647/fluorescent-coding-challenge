@@ -1,6 +1,6 @@
 import React from "react";
-import ImageZoom from "react-medium-image-zoom";
 import "./ImageContainer.css";
+import ImageZoom from "react-medium-image-zoom";
 
 function ImageContainer(props) {
   return (

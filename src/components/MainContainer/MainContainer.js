@@ -1,6 +1,6 @@
 import React from "react";
-import DetailContainer from "../DetailContainer/DetailContainer";
 import ImageContainer from "../ImageContainer/ImageContainer";
+import DetailContainer from "../DetailContainer/DetailContainer";
 import "./MainContainer.css";
 import { imageData } from "../../data";
 
