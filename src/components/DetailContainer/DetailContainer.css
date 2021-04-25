@@ -30,3 +30,17 @@ hr {
   height: 0;
   align-items: center;
 }
+
+.color-container {
+  padding-top: 20px;
+}
+.color-buttons {
+  display: flex;
+}
+.button-item {
+  margin-left: 10px;
+}
+
+.cart-container {
+  padding: 20px 0;
+}

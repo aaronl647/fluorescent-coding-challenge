@@ -11,6 +11,16 @@ function DetailContainer() {
     e.target.style.background = "#1d1d1d";
     e.target.style.color = "#fff";
   };
+  const handleRed = (e) => {
+    return (document.querySelector("img").src = "/images/red.png");
+  };
+  const handleGreen = (e) => {
+    return (document.querySelector("img").src = "/images/green.png");
+  };
+  const handleBlue = (e) => {
+    document.querySelector("img").src = "/images/blue.png";
+    document.querySelector("img").alt = "Blue Flyknit Trainers";
+  };
   return (
     <div className="detail-container">
       <div className="text-details">
@@ -66,6 +76,44 @@ function DetailContainer() {
         </Button>
       </div>
       <hr />
+      <div className="color-container">
+        <p>Colour</p>
+        <div className="color-buttons">
+          <div className="button-item" id="red">
+            <Button
+              id="red"
+              className="btn"
+              buttonSize="btn--circle"
+              buttonStyle="btn--red"
+              onClick={(e) => {
+                handleRed(e);
+              }}
+            />
+          </div>
+          <div className="button-item">
+            <Button
+              id="green"
+              className="btn"
+              buttonSize="btn--circle"
+              buttonStyle="btn--green"
+              onClick={(e) => {
+                handleGreen(e);
+              }}
+            />
+          </div>
+          <div className="button-item">
+            <Button
+              id="blue"
+              className="btn"
+              buttonSize="btn--circle"
+              buttonStyle="btn--blue"
+              onClick={(e) => {
+                handleBlue(e);
+              }}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
