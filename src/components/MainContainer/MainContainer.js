@@ -7,7 +7,9 @@ function MainContainer() {
     <div>
       <h1> Main Section </h1>
       <ImageContainer />
-      <DetailContainer />
+      <div className="details-container">
+        <DetailContainer />
+      </div>
     </div>
   );
 }
