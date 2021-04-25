@@ -114,6 +114,15 @@ function DetailContainer() {
           </div>
         </div>
       </div>
+      <div className="cart-container">
+        <Button
+          className="btn"
+          buttonSize="btn--medium"
+          buttonStyle="btn--cart"
+        >
+          Add to Cart
+        </Button>
+      </div>
     </div>
   );
 }

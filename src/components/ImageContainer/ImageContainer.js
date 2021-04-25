@@ -1,10 +1,24 @@
 import React from "react";
+import ImageZoom from "react-medium-image-zoom";
+import "./ImageContainer.css";
 
-function ImageContainer() {
+function ImageContainer(props) {
   return (
-    <div>
-      <h1>Image Container</h1>
-    </div>
+    <>
+      <div className="image__item">
+        <ImageZoom
+          image={{
+            src: `${props.src}`,
+            alt: `${props.alt}`,
+            className: "img",
+          }}
+          zoomImage={{
+            src: `${props.src}`,
+            alt: `${props.alt}`,
+          }}
+        />
+      </div>
+    </>
   );
 }
 
