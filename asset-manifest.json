@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/fluorescent-coding-challenge/static/css/main.5406d203.chunk.css",
+    "main.js": "/fluorescent-coding-challenge/static/js/main.b232fd31.chunk.js",
+    "main.js.map": "/fluorescent-coding-challenge/static/js/main.b232fd31.chunk.js.map",
+    "runtime-main.js": "/fluorescent-coding-challenge/static/js/runtime-main.c1e47ce6.js",
+    "runtime-main.js.map": "/fluorescent-coding-challenge/static/js/runtime-main.c1e47ce6.js.map",
+    "static/js/2.0485ce83.chunk.js": "/fluorescent-coding-challenge/static/js/2.0485ce83.chunk.js",
+    "static/js/2.0485ce83.chunk.js.map": "/fluorescent-coding-challenge/static/js/2.0485ce83.chunk.js.map",
+    "index.html": "/fluorescent-coding-challenge/index.html",
+    "static/css/main.5406d203.chunk.css.map": "/fluorescent-coding-challenge/static/css/main.5406d203.chunk.css.map",
+    "static/js/2.0485ce83.chunk.js.LICENSE.txt": "/fluorescent-coding-challenge/static/js/2.0485ce83.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1e47ce6.js",
+    "static/js/2.0485ce83.chunk.js",
+    "static/css/main.5406d203.chunk.css",
+    "static/js/main.b232fd31.chunk.js"
+  ]
+}
